@@ -1,8 +1,11 @@
-import { createStore } from "vuex";
+import { createStore } from 'vuex';
+import menuRoutes from '@/composables/menuRoutes';
 
 export default createStore({
-  state: {},
+  state: {
+    menuRoutes,
+  },
   mutations: {},
   actions: {},
-  modules: {}
+  modules: {},
 });
